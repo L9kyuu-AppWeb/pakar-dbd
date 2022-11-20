@@ -138,7 +138,7 @@ $link_web = WEB_ROOT;
 $url = explode("/", $_SERVER["REQUEST_URI"]);
 
 
-$req1   = @$url[0];
+@$req1   = @$url[0];
 @$req2   = @$url[1];
 @$req3   = @$url[2];
 @$req4   = @$url[3];
