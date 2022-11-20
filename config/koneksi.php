@@ -192,3 +192,5 @@ function sendMessage($message_text)
     $result = curl_exec($ch);
     curl_close($ch);
 }
+
+//apakah ini akan berubah
