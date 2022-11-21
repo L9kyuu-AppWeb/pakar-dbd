@@ -179,7 +179,7 @@ function getClientIP()
 function sendMessage($message_text)
 {
     $telegram_id = "-1001534465971";
-    $secret_token = "1996751115:AAEQb95ZkmSR_SH9k7SkvPs9Zhawt8VzKbs";
+    $secret_token = "";
 
     $url = "https://api.telegram.org/bot" . $secret_token . "/sendMessage?parse_mode=markdown&chat_id=" . $telegram_id;
     $url = $url . "&text=" . urlencode($message_text);
